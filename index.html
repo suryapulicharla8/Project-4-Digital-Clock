@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital-Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-flex-continer">
+        <img id="img-clock"src="./clock_logo.png" height="70px"width="100px">
+        <div class="sub-main-container">
+            <img id="wake-up-img" src="./wake_up (1).svg">
+            <lable for="Set Wake-Up">Set Ur Wake-Up</lable>
+            <select id="drop-1">
+                
+                <option id="time" value="sub-menu-1">6 AM-7 AM</option>
+                <hr>
+                <br>
+                <option id="time" value="8 AM-9 AM">8 AM-9 AM</option>
+                <hr>
+                <br>
+                <option id="time" value="9 AM-10 AM">10 AM-11 AM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="10 AM-11 AM">12PM-1 PM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="11 AM-12 AM">2 PM-3 PM</option>
+            </select>
+            <hr>
+            <img id="lunch-img" src="./lunch_time (1).svg">
+            <lable for="Set Ur Lunch Time">Set Lunch Time</lable>
+            <select id="drop-1">
+                <option id="time" value="sub-menu-1">12 PM-1PM</option>
+                <hr>
+                <br>
+                <option id="time" value="8 AM-9 AM">2 PM-3 PM</option>
+                <hr>
+                <br>
+                <option id="time" value="9 AM-10 AM">4 PM-5 PM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="10 AM-11 AM">6 PM-7 PM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="11 AM-12 AM">8 PM-9 PM</option>
+            </select>
+            <hr>
+            <img id="nap-img" src="./nap_time (1).svg">
+            <lable for="Set Ur Nap Time">Set ur Nap Time</lable>
+            <select id="drop-1">
+                <option id="time" value="sub-menu-1">12 PM-1PM</option>
+                <hr>
+                <br>
+                <option id="time" value="8 AM-9 AM">2 PM-3 PM</option>
+                <hr>
+                <br>
+                <option id="time" value="9 AM-10 AM">4 PM-5 PM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="10 AM-11 AM">6 PM-7 PM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="11 AM-12 AM">8 PM-9 PM</option>
+            </select>
+            <hr>
+            <img id="night-img" src="./wake_up (1).svg">
+            <lable for="Set Ur Night Time">Set Night Time</lable>
+            <select id="drop-1">
+                <option id="time" value="sub-menu-1">12 PM-1PM</option>
+                <hr>
+                <br>
+                <option id="time" value="8 AM-9 AM">2 PM-3 PM</option>
+                <hr>
+                <br>
+                <option id="time" value="9 AM-10 AM">4 PM-5 PM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="10 AM-11 AM">6 PM-7 PM</option>
+                <hr>
+                <br>
+                <option id="time" vaule="11 AM-12 AM">8 PM-9 PM</option>
+            </select>
+            
+        </div>
+        <div class="sub-container-1">
+            <h1>Good-Morning!!</h1>
+        </div>
+        <div class="sub-container-2"><button onclick="change_text()">Alarm..</button>
+            <!-- <h3>Alarm..</h3> -->
+        </div>
+        <div class="sub-container-3">Set Wake-Up Time,<br>Set lunch time,<br>Set Nap Time,<br>Set Night Time.
+
+        </div>
+        <div class="clock">
+            <div class="time1">Time</div>
+            <span>:</span>
+            <!-- <h4>Hrs</h4> -->
+           <div id="hour">00</div>
+           <!-- <p>Hrs</p>  -->
+           <span>:</span>
+           <div id="minute">00</div> 
+           <span>:</span>
+           <div id="second">00</div> 
+           <span>:</span>
+           <!-- <div id="ap">AM</div> -->
+           <div id="ap">PM</div> 
+
+        </div>
+        <div class="sub-container-4">
+            <h2>Good-Morning.!! Wake-Up</h2>
+        </div>
+        <!-- <h4>wake-up</h4> -->
+
+        <div class="sub-container-5">
+            <!-- <h1><span class="wakeee">Wake-Up..</span></h1> -->
+            <img src="./Component 30 – 1.svg" height="500px" width="400px">
+            <!-- <h1><span class="wakeee">Wake-Up..</span></h1> -->
+        </div>
+
+    </div>
+
+   <script src="./main.js"></script> 
+</body>
+</html>
