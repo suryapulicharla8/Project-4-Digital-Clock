@@ -6,7 +6,7 @@
 }
 .sub-main-container {
     height: 300px;
-    width:400px;
+    width:450px;
     background-color: white;
     border-radius: 10px;
     /* padding-left: 10%; */
@@ -65,6 +65,7 @@ h3 {
     justify-content: space-between;
     margin-left: 55%;
     border-radius: 10px;
+    box-shadow: 10px 10px -10px -10px solid grey;
     /* margin-bottom: 10%; */
     margin-top: -500px;
     animation-name: clock;
@@ -96,6 +97,7 @@ h3 {
     color: black;
     border-radius: 10px;
     letter-spacing: 3px;
+    
 }
 span {
     font-weight: bold;
@@ -131,12 +133,14 @@ select {
 .sub-container-4 {
     height: 100px;
     width: 40%;
-    background-color:green ;
+    background:linear-gradient(to right,blue,red,gold,green,pink,yellow) ;
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 10px;
     text-align: center;
     margin-left: 55%;
+    font-style: italic;
+    color: whitesmoke;
     
 }
 h2 {
@@ -166,7 +170,7 @@ h2 {
 }
 button {
     /* padding-top: 10%; */
-    margin-top: 2%;
+    /* margin-top: 2%; */
     background-color: black;
     color: whitesmoke;
     border-radius: 20px;
@@ -187,4 +191,76 @@ h4 {
 #time {
     margin-top: 10px;
     justify-items: stretch;
+}
+p {
+    /* padding-top: 20%; */
+    /* margin-left: 10%; */
+}
+#alm-btn {
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 10%;
+    width: 15%;
+    height: 50px;
+}
+#my-image{
+    /* margin-top: 5px; */
+    margin-left: 20px;
+    width: -400px;
+    height: 500px;
+    margin-top: 30px;
+
+
+}
+@media only screen and (max-width:1080px) and (min-width:601px){
+    
+.main-flex-continer {
+    /* display: flex; */
+    /* grid-template-columns: 1fr;
+    grid-gap: 2em; */
+    width: 200%;
+    height: 1250;
+    background-color: brown;
+}
+.sub-main-container {
+    width: 50%;
+    height: auto;
+    margin-top: 500px;
+    /* grid-column: 1;
+    grid-row: 2; */
+
+}.sub-container-1 {
+    /* margin-top: 550px;
+    width: %;
+    height: auto; */
+    height: 50px;
+    width:26%;
+    background:linear-gradient(to right,brown,green,yellow,pink);
+    color:black;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left:20% ;
+    margin-top: 615px;
+
+}
+.alm-btn {
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 38%;
+    width: 31%;
+    height: 50px;
+}
+.clock{
+    height: 58px;
+    width: 68%;
+    display: flex;
+    align-items: center;
+    margin-left: 175;
+    margin-top: -691px;
+
+}
+    
 }
